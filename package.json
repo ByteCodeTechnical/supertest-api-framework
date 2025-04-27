@@ -1,0 +1,25 @@
+{
+  "name": "supertest-api-framework",
+  "version": "1.0.0",
+  "description": "A framework for API testing using Supertest and TypeScript.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "supertest": "^6.1.6"
+  },
+  "devDependencies": {
+    "jest": "^27.0.6",
+    "ts-jest": "^27.0.6",
+    "typescript": "^4.4.4",
+    "@types/jest": "^27.0.1",
+    "@types/supertest": "^2.0.10"
+  },
+  "jest": {
+    "preset": "ts-jest",
+    "testEnvironment": "node"
+  },
+  "author": "",
+  "license": "ISC"
+}
